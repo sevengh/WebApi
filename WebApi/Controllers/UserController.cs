@@ -39,9 +39,9 @@ namespace WebApi.Controllers
 
         [HttpGet]
         [Route("[action]")]
-        public Category GetOne(int id)
+        public User GetOne(int id)
         {
-            return new Category
+            return new User
             {
                 Name = "Djon"
             };
